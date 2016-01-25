@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="400.0" minWidth="600.0" styleClass="background" stylesheets="@Styling.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telecomm_controller.RegPlansController">
+   <children>
+      <Label layoutX="48.0" layoutY="74.0" prefHeight="63.0" prefWidth="148.0" text="Regular Plans">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="164.0" prefHeight="27.0" prefWidth="112.0" text="Plan Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="ComboReg" layoutX="175.0" layoutY="165.0" prefWidth="150.0" />
+      <Button layoutX="430.0" layoutY="296.0" mnemonicParsing="false" onAction="#Buy" prefHeight="48.0" prefWidth="90.0" text="Buy">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="154.0" layoutY="14.0" text="NexGen Telecomm">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

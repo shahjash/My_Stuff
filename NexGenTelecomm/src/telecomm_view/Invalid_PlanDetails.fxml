@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="500.0" minWidth="600.0" styleClass="background" stylesheets="@Styling.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telecomm_controller.InvalidPlanController">
+   <children>
+      <Label layoutX="149.0" layoutY="14.0" text="NexGen Telecomm">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="105.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label layoutX="24.0" layoutY="183.0" prefHeight="35.0" prefWidth="581.0" text="Error has been generated due to following reasons">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="265.0" prefHeight="27.0" prefWidth="556.0" text="1. Plan name entered does not match the given format">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="334.0" prefHeight="27.0" prefWidth="498.0" text="2. Values &quot;Y&quot; or &quot;N&quot; only allowed in Corporate Plan field">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="105.0" prefHeight="35.0" prefWidth="97.0" text="Error!!!" textFill="#dd0e0e">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="235.0" layoutY="431.0" mnemonicParsing="false" onAction="#OK" prefHeight="39.0" prefWidth="97.0" text="OK">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="26.0" layoutY="392.0" prefHeight="27.0" prefWidth="233.0" text="Please try agin!!! ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

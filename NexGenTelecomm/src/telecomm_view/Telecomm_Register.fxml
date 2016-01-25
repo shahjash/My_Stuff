@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="500.0" minWidth="600.0" styleClass="background" stylesheets="@Styling.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telecomm_controller.RegistrationController">
+   <children>
+      <Label layoutX="30.0" layoutY="54.0" prefHeight="43.0" prefWidth="334.0" text="New User Registration">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="107.0" prefHeight="34.0" prefWidth="85.0" text="First Name" />
+      <Label layoutX="30.0" layoutY="159.0" prefHeight="17.0" prefWidth="69.0" text="Last Name" />
+      <Label layoutX="30.0" layoutY="204.0" text="SSN#" />
+      <Label layoutX="30.0" layoutY="250.0" prefHeight="17.0" prefWidth="114.0" text="Desired User Name" />
+      <Label layoutX="30.0" layoutY="293.0" text="Desired Password" />
+      <Button layoutX="331.0" layoutY="410.0" mnemonicParsing="false" onAction="#Ok" prefHeight="43.0" prefWidth="94.0" text="OK" />
+      <Button layoutX="460.0" layoutY="410.0" mnemonicParsing="false" onAction="#Cancel" prefHeight="43.0" prefWidth="94.0" text="Cancel" />
+      <TextField fx:id="Fname" layoutX="168.0" layoutY="112.0" />
+      <TextField fx:id="Lname" layoutX="168.0" layoutY="155.0" />
+      <TextField fx:id="SSN" layoutX="168.0" layoutY="200.0" />
+      <TextField fx:id="Uname" layoutX="168.0" layoutY="246.0" />
+      <TextField fx:id="Upassword" layoutX="168.0" layoutY="289.0" />
+      <Label layoutX="31.0" layoutY="335.0" prefHeight="43.0" prefWidth="130.0" text="CorpEmployee(Yes/No)" />
+      <TextField fx:id="CorpEmp" layoutX="168.0" layoutY="344.0" />
+      <Label layoutX="143.0" text="NexGen telecomm">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

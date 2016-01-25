@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="400.0" minWidth="600.0" styleClass="background" stylesheets="@Styling.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telecomm_controller.AddPlanController">
+   <children>
+      <Label layoutX="152.0" layoutY="14.0" prefHeight="53.0" prefWidth="327.0" text="NexGen Telecomm">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="130.0" prefHeight="27.0" prefWidth="105.0" text="Plan Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="130.0" prefHeight="17.0" prefWidth="139.0" text="Corporate Plan?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PlanName" layoutX="39.0" layoutY="175.0" prefHeight="35.0" prefWidth="202.0" />
+      <TextField fx:id="PlanType" layoutX="371.0" layoutY="175.0" prefHeight="35.0" prefWidth="149.0" />
+      <Label layoutX="43.0" layoutY="222.0" prefHeight="35.0" prefWidth="194.0" text="(Format: Plan Name- $ )">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="393.0" layoutY="229.0" prefHeight="20.0" prefWidth="105.0" text="(Y/N)">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="256.0" layoutY="308.0" mnemonicParsing="false" onAction="#AddPlan" prefHeight="53.0" prefWidth="105.0" text="Add" />
+      <AmbientLight color="CHARTREUSE" layoutX="276.0" layoutY="85.0" lightOn="true" />
+   </children>
+</AnchorPane>

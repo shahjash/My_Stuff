@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="400.0" minWidth="600.0" styleClass="background" stylesheets="@Styling.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telecomm_controller.Admin">
+   <children>
+      <Label layoutX="193.0" layoutY="107.0" prefHeight="17.0" prefWidth="259.0" text="Welcome Admin">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="369.0" layoutY="192.0" mnemonicParsing="false" onAction="#UpdateInfo" prefHeight="54.0" prefWidth="166.0" text="Update Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="55.0" layoutY="192.0" mnemonicParsing="false" onAction="#AddPlan" prefHeight="54.0" prefWidth="138.0" text="Add Plan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="55.0" layoutY="305.0" mnemonicParsing="false" onAction="#DeletePlan" prefHeight="54.0" prefWidth="138.0" text="Delete Plan">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="369.0" layoutY="305.0" mnemonicParsing="false" onAction="#ViewTransactions" prefHeight="54.0" prefWidth="166.0" text="View Transactions">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Hyperlink layoutX="504.0" layoutY="56.0" onAction="#Logout" text="Log-Out" />
+      <Label layoutX="143.0" layoutY="14.0" text="NexGen telecomm">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
