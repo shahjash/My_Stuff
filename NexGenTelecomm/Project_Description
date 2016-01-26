@@ -1,0 +1,16 @@
+#NExGenTelecomm
+A Telecomm Application developed in JavaFX implemented using Model-View-Controller, 
+a role based application allowing users to buy multiple Telecomm plans based on their roles.
+While Admin has multiple functionalities like Adding and Deleting plans for all types of users, 
+update credentails and view transactions.
+Highlights of the project are as follows,
+-Project implemented in JavaFX using MVC architecture implemented
+-DRY principle followed
+-Implemented Combo-box
+-Implemented Hyper-link
+-Implemented ALERTS
+-Implemented CSS in all views
+-CRUD functionality implemented
+-Different home page appears to the user depending upon their roles
+-Inheritance and Interface implemented
+The project can be enhanced further by adding more functionalities for each roles
