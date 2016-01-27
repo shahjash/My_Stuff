@@ -79,7 +79,7 @@ public class Menu {
 			 * re-directed to enter a valid input.
 			 */
 			catch (Exception e) {
-				JOptionPane.showMessageDialog(null, " Please Enter a Valid Input", "ERROR!!!",
+				JOptionPane.showMessageDialog(null, " Please Enter a Valid Input OR Press 5 to Exit", "ERROR!!!",
 						JOptionPane.ERROR_MESSAGE);
 				// System.out.println(e);
 			}
