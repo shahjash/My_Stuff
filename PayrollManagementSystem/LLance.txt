@@ -1,0 +1,8 @@
+********************Payroll Report***************************
+Employee Name: Larry Lance
+Working Hours: 52
+Wages: $11.35
+Overtime Hours: 12.0
+Overtime Pay: $204.29999999999998
+Gross Pay: $658.3 (Overtime Pay Included)
+*************************************************************
