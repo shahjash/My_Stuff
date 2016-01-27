@@ -1,0 +1,6 @@
+The Payroll Management Sysyem Application developed in Core Java, used for managing records of the employees in a company
+Tha Application allows the admin with folling functionalities
+1.Entering the payroll information of the employees in a Text file
+2.View entire Payroll Data
+3.Generate a payroll report for a particular employee
+4.Generate a report for overtime wages.
